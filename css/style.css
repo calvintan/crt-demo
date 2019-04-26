@@ -167,11 +167,41 @@ h2 {
   width: 77px;
   height: 108px;
   background: url(../images/a1-scooter.svg) left center;
-  animation: play 0.8s steps(2) infinite;
+  animation: play-scooter 0.8s steps(2) infinite;
 }
 
-@keyframes play {
+@keyframes play-scooter {
    100% { background-position: -154px; }
+}
+
+.bicycle {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 90px;
+  height: 92px;
+  background: url(../images/a1-bicycle.svg) left center;
+  animation: play-bicycle 0.8s steps(2) infinite;
+}
+
+@keyframes play-bicycle {
+   100% { background-position: -180px; }
+}
+
+.workout {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  background: url(../images/a1-workout.svg) left center;
+  animation: play-workout 0.8s steps(3) alternate infinite;
+}
+
+@keyframes play-workout {
+   100% { background-position: -540px; }
 }
 
 /**
