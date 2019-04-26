@@ -159,6 +159,21 @@ h2 {
   text-transform: uppercase;
 }
 
+.scooter {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 77px;
+  height: 108px;
+  background: url(../images/a1-scooter.svg) left center;
+  animation: play 0.8s steps(2) infinite;
+}
+
+@keyframes play {
+   100% { background-position: -154px; }
+}
+
 /**
  * ----------------------------------------
  * animation slide-left
