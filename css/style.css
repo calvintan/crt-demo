@@ -126,6 +126,16 @@ h1, h2, h3 {
   background: url(../images/boat2.png) center no-repeat;
 }
 
+.map-cassia {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
+
+.map-cassia img {
+  max-width: 300px;
+}
+
 h2 {
   font-weight: 600;
   font-size: 24px;
@@ -257,5 +267,37 @@ h2 {
 
   to {
     opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+
+ .slide-top {
+ 	-webkit-animation: slide-top 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
+ 	        animation: slide-top 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
+ }
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
   }
 }
