@@ -10,5 +10,10 @@ var myFullpage = new fullpage('#fullpage', {
      if(destination.index == 2){
        document.querySelector('#section3 .content').classList.add('slideInLeft');
      }
+
+     // the below targets 4th section
+     if(destination.index == 3){
+       document.querySelector('#section4 .content').classList.add('slideInLeft');
+     }
    }
 });

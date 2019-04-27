@@ -82,11 +82,16 @@ h1, h2, h3 {
   transform: translate3d(-200%, 0, 0);
 }
 
+#section3 .content {
+  top: 0;
+  bottom: auto;
+}
+
 @media (min-width: 800px){
   .content {
     top: 0;
     bottom: auto;
-    max-width: 320px;
+    max-width: 360px;
   }
 }
 
@@ -103,9 +108,9 @@ h1, h2, h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 984px;
-  height: 544px;
-  background: url(../images/map.png) center no-repeat;
+  width: 1280px;
+  height: 720px;
+  background: url(../images/a2-map.jpg) center no-repeat;
 }
 
 .map-boat-1 {
@@ -126,16 +131,6 @@ h1, h2, h3 {
   background: url(../images/boat2.png) center no-repeat;
 }
 
-.map-cassia {
-  position: absolute;
-  top: 10%;
-  right: 30%;
-}
-
-.map-cassia img {
-  max-width: 300px;
-}
-
 h2 {
   font-weight: 600;
   font-size: 24px;
@@ -143,12 +138,22 @@ h2 {
 }
 
 #section1 {
-  background: url(../images/intro.jpg) center bottom no-repeat;
+  background: url(../images/a1-bg.svg) center bottom no-repeat;
   background-size: cover;
 }
 
 #section2 {
   background-color: #C8E9F1;
+}
+
+#section3 {
+  background: url(../images/top.png) 75% bottom no-repeat;
+  background-size: contain;
+}
+
+#section4 {
+  background: url(../images/bottom.png) 75% top no-repeat;
+  background-size: contain;
 }
 
 .subtitle {
@@ -161,9 +166,8 @@ h2 {
 
 .scooter {
   position: absolute;
-  left: 10%;
-  top: 60%;
-  transform: translateY(-50%);
+  left: 20%;
+  top: 55%;
   width: 77px;
   height: 108px;
   background: url(../images/a1-scooter.svg) left center;
@@ -176,9 +180,8 @@ h2 {
 
 .bicycle {
   position: absolute;
-  left: 20%;
+  left: 40%;
   top: 60%;
-  transform: translateY(-50%);
   width: 90px;
   height: 92px;
   background: url(../images/a1-bicycle.svg) left center;
@@ -191,13 +194,13 @@ h2 {
 
 .workout {
   position: absolute;
-  left: 20%;
-  top: 60%;
-  transform: translateY(-50%);
+  left: 25%;
+  bottom: 15%;
   width: 180px;
   height: 180px;
   background: url(../images/a1-workout.svg) left center;
   animation: play-workout 0.8s steps(3) alternate infinite;
+  transform: scale(1.1);
 }
 
 @keyframes play-workout {
@@ -205,10 +208,10 @@ h2 {
 }
 
 .playground {
+  z-index: 1;
   position: absolute;
-  left: 20%;
-  top: 60%;
-  transform: translateY(-50%);
+  left: 45%;
+  bottom: 10%;
   width: 400px;
   height: 300px;
   background: url(../images/a1-playground.svg) left center;
@@ -217,6 +220,56 @@ h2 {
 
 @keyframes play-playground {
    100% { background-position: -1200px; }
+}
+
+.gardening {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+  width: 200px;
+  height: 200px;
+  background: url(../images/a1-gardening.svg) left center;
+  animation: play-gardening 0.8s steps(3) alternate infinite;
+}
+
+@keyframes play-gardening {
+   100% { background-position: -600px; }
+}
+
+.walkdog {
+  position: absolute;
+  left: 5%;
+  bottom: 7.5%;
+  width: 200px;
+  height: 200px;
+  background: url(../images/a1-walkdog.svg) center no-repeat;
+}
+
+.walkcat {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  width: 115px;
+  height: 90px;
+  background: url(../images/a1-walkcat.svg) center no-repeat;
+}
+
+.sitdog {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: 180px;
+  height: 150px;
+  background: url(../images/a1-sitdog.svg) center no-repeat;
+}
+
+.hdb {
+  position: absolute;
+  right: 5%;
+  bottom: 30%;
+  width: 256px;
+  height: 338px;
+  background: url(../images/a1-hdb.svg) center no-repeat;
 }
 
 /**
@@ -327,37 +380,5 @@ h2 {
 
   to {
     opacity: 1;
-  }
-}
-
-/**
- * ----------------------------------------
- * animation slide-top
- * ----------------------------------------
- */
-
- .slide-top {
- 	-webkit-animation: slide-top 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
- 	        animation: slide-top 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
- }
-
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
   }
 }
