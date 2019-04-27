@@ -110,7 +110,7 @@ h1, h2, h3 {
   transform: translate(-50%, -50%);
   width: 1280px;
   height: 720px;
-  background: url(../images/a2-map.jpg) center no-repeat;
+  background: url(../images/singapore.png) center no-repeat;
 }
 
 .map-boat-1 {
@@ -143,7 +143,8 @@ h2 {
 }
 
 #section2 {
-  background-color: #C8E9F1;
+  /* background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%); */
+background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%, #FFFDF7 100%, #FFFDF7 100%);
 }
 
 #section3 {
