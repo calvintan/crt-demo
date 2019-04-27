@@ -204,6 +204,21 @@ h2 {
    100% { background-position: -540px; }
 }
 
+.playground {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 300px;
+  background: url(../images/a1-playground.svg) left center;
+  animation: play-playground 0.8s steps(3) alternate infinite;
+}
+
+@keyframes play-playground {
+   100% { background-position: -1200px; }
+}
+
 /**
  * ----------------------------------------
  * animation slide-left
