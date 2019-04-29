@@ -115,8 +115,8 @@ h1, h2, h3 {
 
 .map-boat-1 {
   position: absolute;
-  bottom: 10%;
-  left: 25%;
+  bottom: 15%;
+  left: 15%;
   width: 90px;
   height: 50px;
   background: url(../images/a2-boat-1.svg) center no-repeat;
@@ -124,8 +124,8 @@ h1, h2, h3 {
 
 .map-boat-2 {
   position: absolute;
-  top: 10%;
-  left: 30%;
+  bottom: 25%;
+  right: 30%;
   width: 50px;
   height: 75px;
   background: url(../images/a2-boat-2.svg) center no-repeat;
@@ -133,8 +133,8 @@ h1, h2, h3 {
 
 .map-boat-3 {
   position: absolute;
-  bottom: 20%;
-  right: 30%;
+  top: 20%;
+  right: 20%;
   width: 130px;
   height: 60px;
   background: url(../images/a2-boat-3.svg) center no-repeat;
@@ -153,16 +153,16 @@ h2 {
 
 #section2 {
   /* background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%); */
-background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%, #FFFDF7 100%, #FFFDF7 100%);
+background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%, #FFFDF7 100%, #FFFDF7 100%);
 }
 
 #section3 {
-  background: url(../images/top.png) 75% bottom no-repeat;
+  background: url(../images/top.svg) 75% bottom no-repeat;
   background-size: contain;
 }
 
 #section4 {
-  background: url(../images/bottom.png) 75% top no-repeat;
+  background: url(../images/bottom.svg) 75% top no-repeat;
   background-size: contain;
 }
 
@@ -276,11 +276,12 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
 
 .cassia-hdb {
   position: absolute;
-  right: 5%;
-  bottom: 30%;
+  right: 2.5%;
+  bottom: 35%;
   width: 270px;
   height: 360px;
   background: url(../images/a1-hdb.svg) left top no-repeat;
+  transform: scale(1.1);
 }
 
 .cassia-zoom {
