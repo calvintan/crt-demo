@@ -1,3 +1,4 @@
+/* Generic styling */
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,6 +16,13 @@ h1, h2, h3 {
   font-family: 'Bitter', serif;
 }
 
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #554433;
+}
+
+/* Navigation */
 .static-nav {
   position: absolute;
   width: 100%;
@@ -65,6 +73,26 @@ h1, h2, h3 {
   height: auto;
 }
 
+#section1 {
+  background: url(../images/a1-bg.svg) center bottom no-repeat;
+  background-size: cover;
+}
+
+#section2 {
+  /* background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%); */
+background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%, #FFFDF7 100%, #FFFDF7 100%);
+}
+
+#section3 {
+  background: url(../images/top.svg) 80% bottom no-repeat;
+  background-size: contain;
+}
+
+#section4 {
+  background: url(../images/bottom.svg) 80% top no-repeat;
+  background-size: contain;
+}
+
 #section1 .title {
   text-align: center;
 }
@@ -95,77 +123,6 @@ h1, h2, h3 {
   }
 }
 
-.map-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.map-sg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 960px;
-  height: 540px;
-  background: url(../images/a2-map.svg) center no-repeat;
-}
-
-.map-boat-1 {
-  position: absolute;
-  bottom: 15%;
-  left: 15%;
-  width: 90px;
-  height: 50px;
-  background: url(../images/a2-boat-1.svg) center no-repeat;
-}
-
-.map-boat-2 {
-  position: absolute;
-  bottom: 25%;
-  right: 30%;
-  width: 50px;
-  height: 75px;
-  background: url(../images/a2-boat-2.svg) center no-repeat;
-}
-
-.map-boat-3 {
-  position: absolute;
-  top: 20%;
-  right: 20%;
-  width: 130px;
-  height: 60px;
-  background: url(../images/a2-boat-3.svg) center no-repeat;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 24px;
-  color: #554433;
-}
-
-#section1 {
-  background: url(../images/a1-bg.svg) center bottom no-repeat;
-  background-size: cover;
-}
-
-#section2 {
-  /* background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%); */
-background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%, #FFFDF7 100%, #FFFDF7 100%);
-}
-
-#section3 {
-  background: url(../images/top.svg) 75% bottom no-repeat;
-  background-size: contain;
-}
-
-#section4 {
-  background: url(../images/bottom.svg) 75% top no-repeat;
-  background-size: contain;
-}
-
 .subtitle {
   font-weight: bold;
   font-size: 12px;
@@ -174,7 +131,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
   text-transform: uppercase;
 }
 
-/* Animated Elements */
+/* Animated Elements - A1 */
 .scooter {
   position: absolute;
   left: 15%;
@@ -291,6 +248,53 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
   width: 190px;
   height: 300px;
   background: url(../images/a2-cassia-zoom.svg) left top no-repeat;
+}
+
+
+/* Animated Elements - A2 */
+.map-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map-sg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 960px;
+  height: 540px;
+  background: url(../images/a2-map.svg) center no-repeat;
+}
+
+.map-boat-1 {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  width: 90px;
+  height: 50px;
+  background: url(../images/a2-boat-1.svg) center no-repeat;
+}
+
+.map-boat-2 {
+  position: absolute;
+  bottom: 25%;
+  right: 30%;
+  width: 50px;
+  height: 75px;
+  background: url(../images/a2-boat-2.svg) center no-repeat;
+}
+
+.map-boat-3 {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  width: 130px;
+  height: 60px;
+  background: url(../images/a2-boat-3.svg) center no-repeat;
 }
 
 /**
