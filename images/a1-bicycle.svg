@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="180px" height="92px" viewBox="0 0 180 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="180px" height="90px" viewBox="0 0 180 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>bicycle</title>
+    <title>a1-bicycle</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="0.663 0.090786196 14.381669 0.090786196 14.381669 7 0.663 7"></polygon>
     </defs>
-    <g id="bicycle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="a1-bicycle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-30">
             <path d="M17.1163,82.6115 C10.1953,82.6115 4.5643,76.9105 4.5643,69.9045 C4.5643,62.8975 10.1953,57.1975 17.1163,57.1975 C24.0383,57.1975 29.6693,62.8975 29.6693,69.9045 C29.6693,76.9105 24.0383,82.6115 17.1163,82.6115 M17.1163,52.5775 C7.6633,52.5775 0.0003,60.3355 0.0003,69.9045 C0.0003,79.4735 7.6633,87.2315 17.1163,87.2315 C26.5703,87.2315 34.2333,79.4735 34.2333,69.9045 C34.2343,60.3355 26.5703,52.5775 17.1163,52.5775" id="Fill-1" fill="#9EA7AF"></path>
             <path d="M72.8829,82.6115 C65.9619,82.6115 60.3309,76.9105 60.3309,69.9045 C60.3309,62.8975 65.9619,57.1975 72.8829,57.1975 C79.8049,57.1975 85.4359,62.8975 85.4359,69.9045 C85.4359,76.9105 79.8049,82.6115 72.8829,82.6115 M72.8829,52.5775 C63.4299,52.5775 55.7659,60.3355 55.7659,69.9045 C55.7659,79.4735 63.4299,87.2315 72.8829,87.2315 C82.3369,87.2315 89.9999,79.4735 89.9999,69.9045 C89.9999,60.3355 82.3369,52.5775 72.8829,52.5775" id="Fill-3" fill="#9EA7AF"></path>

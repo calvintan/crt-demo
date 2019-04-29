@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>walkdog</title>
+    <title>a1-walkdog</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="0 0.32902568 11.3723533 0.32902568 11.3723533 29.4346272 0 29.4346272"></polygon>
         <polygon id="path-3" points="0.2301 0.639973982 28.0229143 0.639973982 28.0229143 11 0.2301 11"></polygon>
         <polygon id="path-5" points="0.320462407 0.4639 7 0.4639 7 10.6085756 0.320462407 10.6085756"></polygon>
     </defs>
-    <g id="walkdog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="a1-walkdog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-72">
             <path d="M79.4214,0 L78.4624,0 C72.7734,0 68.1594,4.825 68.1594,10.777 L68.1594,21.304 C68.1594,26.85 72.1654,31.418 77.3174,32.015 C77.3174,32.04 77.3194,32.065 77.3204,32.092 L91.2174,32.092 C93.4144,29.847 91.2614,15.535 89.6094,9.168 C88.8664,3.979 84.5884,0 79.4214,0" id="Fill-1" fill="#191847"></path>
             <path d="M90.3511,20.6621 C90.3511,23.0701 89.2961,25.0211 87.9961,25.0211 C86.6941,25.0211 85.6391,23.0701 85.6391,20.6621 C85.6391,18.2541 86.6941,16.3021 87.9961,16.3021 C89.2961,16.3021 90.3511,18.2541 90.3511,20.6621 Z" id="Stroke-3" stroke="#FDE14C" stroke-width="0.336"></path>

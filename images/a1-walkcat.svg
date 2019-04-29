@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="115px" height="90px" viewBox="0 0 115 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>walkcat</title>
+    <title>a1-walkcat</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="0.11765917 0.831888356 15.667 0.831888356 15.667 5 0.11765917 5"></polygon>
@@ -9,7 +9,7 @@
         <polygon id="path-5" points="0.695247933 0 21.269048 0 21.269048 16.270366 0.695247933 16.270366"></polygon>
         <polygon id="path-7" points="0 0.4049 7.55053883 0.4049 7.55053883 6.1999 0 6.1999"></polygon>
     </defs>
-    <g id="walkcat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="a1-walkcat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-75">
             <path d="M64.867,12.042 C65.916,9.912 66.362,7.52 65.528,5.183 C63.123,-1.549 54.874,3.057 51.862,6.346 C49.094,10.766 50.625,14.342 52.784,16.343 C53.661,15.885 54.28,15.551 54.586,15.919 C54.831,16.214 54.879,16.975 54.491,17.55 C55.186,17.907 55.852,18.097 56.38,18.092 C57.441,18.082 60.052,17.979 61.855,16.172 L63.065,25.739 L71.042,23.678 L64.867,12.042 Z" id="Fill-1" fill="#D4A181"></path>
             <polygon id="Fill-3" fill="#BA8B72" points="67.0565 41.8047 42.0335 88.0337 45.2495 88.0337 60.1845 66.8557 80.1055 41.8047"></polygon>
