@@ -108,27 +108,36 @@ h1, h2, h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 1280px;
-  height: 720px;
-  background: url(../images/singapore.png) center no-repeat;
+  width: 960px;
+  height: 540px;
+  background: url(../images/a2-map.svg) center no-repeat;
 }
 
 .map-boat-1 {
   position: absolute;
   bottom: 10%;
   left: 25%;
-  width: 88px;
-  height: 52px;
-  background: url(../images/boat1.png) center no-repeat;
+  width: 90px;
+  height: 50px;
+  background: url(../images/a2-boat-1.svg) center no-repeat;
 }
 
 .map-boat-2 {
   position: absolute;
   top: 10%;
   left: 30%;
-  width: 133px;
-  height: 58px;
-  background: url(../images/boat2.png) center no-repeat;
+  width: 50px;
+  height: 75px;
+  background: url(../images/a2-boat-2.svg) center no-repeat;
+}
+
+.map-boat-3 {
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  width: 130px;
+  height: 60px;
+  background: url(../images/a2-boat-3.svg) center no-repeat;
 }
 
 h2 {
@@ -165,18 +174,19 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   text-transform: uppercase;
 }
 
+/* Animated Elements */
 .scooter {
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 55%;
-  width: 77px;
-  height: 108px;
-  background: url(../images/a1-scooter.svg) left center;
+  width: 80px;
+  height: 110px;
+  background: url(../images/a1-scooter.svg) left top no-repeat;
   animation: play-scooter 0.8s steps(2) infinite;
 }
 
 @keyframes play-scooter {
-   100% { background-position: -154px; }
+   100% { background-position: -160px; }
 }
 
 .bicycle {
@@ -184,8 +194,8 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   left: 40%;
   top: 60%;
   width: 90px;
-  height: 92px;
-  background: url(../images/a1-bicycle.svg) left center;
+  height: 90px;
+  background: url(../images/a1-bicycle.svg) left top no-repeat;
   animation: play-bicycle 0.8s steps(2) infinite;
 }
 
@@ -199,7 +209,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 15%;
   width: 180px;
   height: 180px;
-  background: url(../images/a1-workout.svg) left center;
+  background: url(../images/a1-workout.svg) left top no-repeat;
   animation: play-workout 0.8s steps(3) alternate infinite;
   transform: scale(1.1);
 }
@@ -215,7 +225,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 10%;
   width: 400px;
   height: 300px;
-  background: url(../images/a1-playground.svg) left center;
+  background: url(../images/a1-playground.svg) left top no-repeat;
   animation: play-playground 0.8s steps(3) alternate infinite;
 }
 
@@ -229,7 +239,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 10%;
   width: 200px;
   height: 200px;
-  background: url(../images/a1-gardening.svg) left center;
+  background: url(../images/a1-gardening.svg) left top no-repeat;
   animation: play-gardening 0.8s steps(3) alternate infinite;
 }
 
@@ -243,7 +253,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 7.5%;
   width: 200px;
   height: 200px;
-  background: url(../images/a1-walkdog.svg) center no-repeat;
+  background: url(../images/a1-walkdog.svg) left top no-repeat;
 }
 
 .walkcat {
@@ -252,7 +262,7 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 5%;
   width: 115px;
   height: 90px;
-  background: url(../images/a1-walkcat.svg) center no-repeat;
+  background: url(../images/a1-walkcat.svg) left top no-repeat;
 }
 
 .sitdog {
@@ -261,16 +271,25 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%, #C8E9F1 75%,
   bottom: 5%;
   width: 180px;
   height: 150px;
-  background: url(../images/a1-sitdog.svg) center no-repeat;
+  background: url(../images/a1-sitdog.svg) left top no-repeat;
 }
 
-.hdb {
+.cassia-hdb {
   position: absolute;
   right: 5%;
   bottom: 30%;
-  width: 256px;
-  height: 338px;
-  background: url(../images/a1-hdb.svg) center no-repeat;
+  width: 270px;
+  height: 360px;
+  background: url(../images/a1-hdb.svg) left top no-repeat;
+}
+
+.cassia-zoom {
+  position: absolute;
+  right: 38%;
+  top: 25%;
+  width: 190px;
+  height: 300px;
+  background: url(../images/a2-cassia-zoom.svg) left top no-repeat;
 }
 
 /**
