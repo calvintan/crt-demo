@@ -79,17 +79,16 @@ h2 {
 }
 
 #section2 {
-  /* background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 20%); */
-background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%, #FFFDF7 100%, #FFFDF7 100%);
+  background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%, #FFFDF7 100%, #FFFDF7 100%);
 }
 
 #section3 {
-  background: url(../images/top.svg) 80% bottom no-repeat;
+  background: url(../images/top.svg) center bottom no-repeat;
   background-size: contain;
 }
 
 #section4 {
-  background: url(../images/bottom.svg) 80% top no-repeat;
+  background: url(../images/bottom.svg) center top no-repeat;
   background-size: contain;
 }
 
@@ -204,6 +203,21 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
    100% { background-position: -600px; }
 }
 
+.highfive {
+  position: absolute;
+  right: 30%;
+  bottom: 35%;
+  width: 100px;
+  height: 115px;
+  background: url(../images/a1-highfive.svg) left top no-repeat;
+  animation: play-highfive 0.5s steps(2) alternate infinite;
+  transform: scale(1.2);
+}
+
+@keyframes play-highfive {
+   100% { background-position: -200px; }
+}
+
 .walkdog {
   position: absolute;
   left: 5%;
@@ -217,9 +231,14 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
   position: absolute;
   left: 35%;
   bottom: 5%;
-  width: 115px;
+  width: 110px;
   height: 90px;
   background: url(../images/a1-walkcat.svg) left top no-repeat;
+  animation: play-walkcat 0.8s steps(4) alternate infinite;
+}
+
+@keyframes play-walkcat {
+   100% { background-position: -440px; }
 }
 
 .sitdog {
@@ -249,7 +268,6 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
   height: 300px;
   background: url(../images/a2-cassia-zoom.svg) left top no-repeat;
 }
-
 
 /* Animated Elements - A2 */
 .map-container {
@@ -295,6 +313,68 @@ background-image: linear-gradient(-180deg, #6DC6AB 0%, #C8E9F1 15%, #C8E9F1 85%,
   width: 130px;
   height: 60px;
   background: url(../images/a2-boat-3.svg) center no-repeat;
+}
+
+/* Animated Elements - A3 */
+#section3 .workout {
+  left: 32%;
+  top: 35%;
+  bottom: auto;
+  transform: scale(0.7);
+}
+
+#section3 .playground {
+  top: 25%;
+  right: 35%;
+  left: auto;
+  bottom: auto;
+  transform: scale(0.7);
+}
+
+#section3 .gardening {
+  right: 25%;
+  bottom: 10%;
+  transform: scale(0.8);
+}
+
+#section3 .walkcat {
+  left: auto;
+  right: 45%;
+  bottom: 20%;
+}
+
+/* Animated Elements - A4 */
+#section4 .scooter {
+  left: 25%;
+  top: 5%;
+  bottom: auto;
+}
+
+#section4 .bicycle {
+  left: auto;
+  right: 20%;
+  top: 50%;
+  transform: scaleX(-1);
+}
+
+#section4 .walkdog {
+  left: auto;
+  bottom: auto;
+  right: 36%;
+  top: 25%;
+  transform: scale(0.6);
+}
+
+#section4 .sitdog {
+  right: auto;
+  left: 30%;
+  bottom: 20%;
+  transform: scaleX(-1) scale(0.8);
+}
+
+#section4 .highfive {
+  right: 40%;
+  bottom: 35%;
 }
 
 /**
