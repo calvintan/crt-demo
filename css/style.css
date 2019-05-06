@@ -198,12 +198,12 @@ h2 {
 }
 
 #section3 {
-  background: url(../images/top.svg) center bottom no-repeat;
+  background: url(../images/top-desktop.svg) center bottom no-repeat;
   background-size: contain;
 }
 
 #section4 {
-  background: url(../images/bottom.svg) center top no-repeat;
+  background: url(../images/bottom-desktop.svg) center top no-repeat;
   background-size: contain;
 }
 
@@ -463,7 +463,7 @@ h2 {
   }
 }
 
-/* Animated Elements - A3 */
+/* Elements - A3 */
 #section3 .workout {
   left: 32%;
   top: 35%;
@@ -491,7 +491,18 @@ h2 {
   bottom: 20%;
 }
 
-/* Animated Elements - A4 */
+@media (max-width: 480px) {
+  #section3 .desktop-only {
+    display: none;
+  }
+
+  #section3 {
+    background: url(../images/top-mobile.svg) center bottom no-repeat;
+    background-size: contain;
+  }
+}
+
+/* Elements - A4 */
 #section4 .scooter {
   left: 25%;
   top: 5%;
@@ -523,6 +534,17 @@ h2 {
 #section4 .highfive {
   right: 40%;
   bottom: 35%;
+}
+
+@media (max-width: 480px) {
+  #section4 .desktop-only {
+    display: none;
+  }
+
+  #section4 {
+    background: url(../images/bottom-mobile.svg) center top no-repeat;
+    background-size: contain;
+  }
 }
 
 /**
