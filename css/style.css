@@ -72,19 +72,23 @@ h2 {
 .outer-center {
   display: flex;
   background: #FCECDE;
-  padding: 30px 15px;
-  justify-content: center;
+  padding: 30px 20px 0;
+  justify-content: space-between;
+  flex-direction: column;
   min-width: 320px;
+
+}
+
+.resident {
+  width: 100%;
+  display: flex;
   flex-direction: column;
   flex-flow: wrap;
 }
 
-.container {
-  width: 100%;
-}
-
 .resident-box {
   width: 100%;
+  padding: 0 10px;
   margin-bottom: 30px;
 }
 
@@ -96,12 +100,59 @@ h2 {
   background: #FF931E;
 }
 
+.resident-box a {
+  display: block;
+}
+
 .resident-box img {
   display: block;
   width: 270px;
   height: 180px;
   background: #ccc;
   margin: 0 auto;
+}
+
+.decoration {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+}
+
+.decoration-box {
+  width: 100%;
+  padding: 0 20px;
+
+}
+
+.decoration-items {
+  position: relative;
+  background: #fcf3ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 280px;
+  padding-bottom: 10px;
+}
+
+.decoration-items img {
+  position: relative;
+  z-index: 1;
+}
+
+.decoration-items::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #738290;
+  bottom: 0;
+  z-index: 0;
+}
+
+.decoration-box.desktop-only {
+  display: none;
 }
 
 @media (min-width: 1000px) {
@@ -116,6 +167,14 @@ h2 {
   .resident-box img {
     width: 420px;
     height: 280px;
+  }
+
+  .decoration-box {
+    width: 50%;
+  }
+
+  .decoration-box.desktop-only {
+    display: block;
   }
 }
 
