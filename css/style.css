@@ -448,6 +448,21 @@ h2 {
   background: url(../images/a2-boat-3.svg) center no-repeat;
 }
 
+@media (max-width: 480px) {
+  #section2 .desktop-only {
+    display: none;
+  }
+
+  .cassia-zoom {
+    right: 18%;
+    top: 11%;
+  }
+
+  .map-sg {
+    transform: translate(-50%, -65%) scale(0.4);
+  }
+}
+
 /* Animated Elements - A3 */
 #section3 .workout {
   left: 32%;
