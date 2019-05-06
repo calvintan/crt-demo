@@ -136,7 +136,6 @@ h2 {
   }
 }
 
-
 /* Navigation */
 .static-nav {
   position: absolute;
@@ -188,6 +187,7 @@ h2 {
   height: auto;
 }
 
+/* Sections */
 #section1 {
   background: url(../images/a1-bg.svg) center bottom no-repeat;
   background-size: cover;
@@ -245,7 +245,7 @@ h2 {
   text-transform: uppercase;
 }
 
-/* Animated Elements - A1 */
+/* Elements - A1 */
 .scooter {
   position: absolute;
   left: 15%;
@@ -368,13 +368,32 @@ h2 {
 .cassia-hdb {
   position: absolute;
   right: 2.5%;
-  bottom: 35%;
+  bottom: 30%;
   width: 270px;
   height: 360px;
   background: url(../images/a1-hdb.svg) left top no-repeat;
-  transform: scale(1.1);
 }
 
+@media (max-width: 480px) {
+  #section1 .desktop-only {
+    display: none;
+  }
+
+  #section1 .playground {
+    left: 5%;
+    bottom: 7.5%;
+    transform: scale(0.9);
+  }
+
+  #section1 .cassia-hdb {
+    left: 0;
+    right: auto;
+    bottom: 25%;
+    transform: translateX(-25px) scaleX(-1) scale(0.6);
+  }
+}
+
+/* Elements - A2 */
 .cassia-zoom {
   position: absolute;
   right: 38%;
@@ -384,7 +403,6 @@ h2 {
   background: url(../images/a2-cassia-zoom.svg) left top no-repeat;
 }
 
-/* Animated Elements - A2 */
 .map-container {
   position: relative;
   top: 0;
